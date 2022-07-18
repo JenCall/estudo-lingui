@@ -1,27 +1,27 @@
 <!-- Toolbar -->
-<div class="toolbar" role="banner">
+<div class="toolbar-1" role="banner">
   <img
     class="logo-image"
     alt="Logo Image"
     src="https://images.unsplash.com/photo-1464820453369-31d2c0b651af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
   />
-  <h3>Estudo Linguístico!</h3>  
+  <h6>Estudo Linguístico!</h6>  
 </div>
 
-<div class="content" role="main">
+<div class="content-1" role="main">
 
   <!-- Highlight Card -->
-  <div class="card highlight-card card-small">
-    <h3>{{ welcome }}</h3>
-  </div><br><br><hr>
+  <div class="card-1 highlight-card card-small">
+    <h5>{{ welcome }}</h5>
+  </div><br><br>
 
   <!-- Resources -->
   <div>
-    <h4>Muito obrigada por participar desse estudo. Nele você será solicitado a avaliar frases em uma escala de 1 a 7.</h4><br>
+    <h6>Muito obrigada por participar desse estudo. Nele você terá que avaliar frases em uma escala de 1 a 7.</h6><br>
 
-    <h4>A questão é quão natural elas soam para você – não necessariamente em um texto formal, mas em uma conversa cotidiana.</h4><br>
+    <h6>A questão é quão natural elas soam para você – não necessariamente em um texto formal, mas em uma conversa cotidiana.</h6><br>
 
-    <h4>Use <span class="button-scale">1</span> para completamente estranha/ errada e <span class="button-scale">7</span> para completamente natural.</h4><br><br>
+    <h6>Use <span class="button-scale">1</span> para completamente estranha/errada e <span class="button-scale">7</span> para completamente natural.</h6><br><br>
   </div>
 
   <div>
@@ -29,17 +29,79 @@
   
     <p>Se você achar a frase a seguir totalmente natural, você pode dar uma pontuação alta.<p>
     
-    <hr><p><em>"Marina muitas vezes faz sua lição de casa na biblioteca."</em></p><hr><br><br>
-    
+    <hr><p><em>"Marina muitas vezes faz sua lição de casa na biblioteca."</em></p><hr>
+  
+    <div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="optio4">
+        <label class="form-check-label" for="inlineCheckbox4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+        <label class="form-check-label" for="inlineCheckbox5">5</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+        <label class="form-check-label" for="inlineCheckbox6">6</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7" checked>
+        <label class="form-check-label" for="inlineCheckbox7">7</label>
+      </div>
+    </div><br><br><br>
+
     <p>No entanto, se a frase abaixo soar antinatural / estranha / ou errada para você, você pode dar uma pontuação baixa.</p>
     
-    <hr><p><em>"Marcos muitas vezes na biblioteca sua lição faz."</em><p><hr><br><br>
+    <hr><p><em>"Marcos muitas vezes na biblioteca sua lição faz."</em><p><hr>
+
+    <div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+        <label class="form-check-label" for="inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+        <label class="form-check-label" for="inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+        <label class="form-check-label" for="inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+        <label class="form-check-label" for="inlineRadio5">5</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+        <label class="form-check-label" for="inlineRadio6">6</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7">
+        <label class="form-check-label" for="inlineRadio7">7</label>
+      </div>
+    </div><br><br><br>
   </div>
 
   <!-- Button to forms -->
   <div class="card-container">
     <p ></p>
-    <a (click)="myFunc()" class="card" target="_blank" rel="noopener" id="link" href="">
+    <a (click)="myFunc()" class="card-1" target="_blank" rel="noopener" id="link" href="">
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
       <span class="text-center">Iniciar</span>
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>    
